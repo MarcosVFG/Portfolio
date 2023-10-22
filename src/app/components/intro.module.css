@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4%;
+    font-size: 3em;
+    color: #141c3a;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.full{
+    padding-top: 1.5em;
+    font-size: 0.45em;
+    padding-bottom: 2em;
+}
+
+.marcos {
+    color: #37c3be;
+}

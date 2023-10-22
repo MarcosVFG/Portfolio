@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    font-size: 2em;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.link {
+    text-decoration: none;
+    color: #37c3be;
+}
+
+.teste {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding-bottom: 16em;
+}
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .imageContainer a {
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0; /* Inicialmente invisível */
+    background-color: #141c3a; /* Fundo semi-transparente */
+    color: white; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s; /* Transição suave para a opacidade */
+  }
+
+  .opa{
+    transition: transform 0.3s;
+    border-radius: 10px;
+  }
+
+  .imageContainer:hover .opa {
+    transform: scale(0.99)
+  }
+
+  .imageContainer:hover .overlay {
+    opacity: 1; /* Torna o overlay visível no hover */
+  }

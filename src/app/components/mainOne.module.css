@@ -1,0 +1,200 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5em;
+}
+
+.divP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 7em;
+    padding-bottom: 18em;
+    background-color: #141c3a;
+    color: #ffffff;
+}
+
+.divP h1{
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+
+.divP p{
+    width: 50%;
+    font-size: 1.3em;
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: -9rem;
+    width: 70%;
+    border-radius: 1.3em;
+}
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #141c3a;
+    padding-top: 5em;
+    padding-bottom: 6em;
+    border-bottom-left-radius: 1.3em;
+}
+
+.containerOne h1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.containerOne p{
+    font-size: 1.2em;
+    width: 80%;
+}
+
+.containerTwo p{
+    font-size: 1.2em;
+    width: 80%;
+}
+
+.containerTwo h1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #141c3a;
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+.containerThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #141c3a;
+    padding-top: 5em;
+    padding-bottom: 6em;
+    border-bottom-right-radius: 1.3em;
+}
+
+.containerThree h1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.containerThree p{
+    font-size: 1.2em;
+    width: 80%;
+}
+
+
+.bcIcon {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    object-fit:contain;
+}
+
+.bcIconTwo {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.iconTwo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    object-fit:contain;
+}
+
+.bcIconThree{
+    position: relative;
+    width: 5em;
+    height: 5em;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.iconThree {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    object-fit:contain;
+}
+
+.tec {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: bold;
+    color: #37c3be;
+}
+
+.skills {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: #37c3be;
+    font-size: 100px;
+}
+
+.skillsP {
+    padding-top: 1em;
+}
+
+.s{
+    padding-top: 4em;
+    padding-left: 15px;
+}
