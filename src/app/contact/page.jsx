@@ -17,7 +17,6 @@ export default function Contact() {
                     alt="Logo"
                 />
             </Link>
-            <h1 className={styles.ok}>TESTE</h1>
         </div>
             <Image     
                 src="/Perfil.png"

@@ -15,21 +15,21 @@ function MainTwo() {
                 <div className={styles.imageContainer}>
                     <Link href={'/'}>
                         <Image     
-                            src="/rep1.png"
+                            src="/nutri.png"
                             width={350}
                             height={250}
                             className={styles.opa}
-                            alt="Calculadora"
+                            alt="Nutrition Website"
                         />
                         <div className={styles.overlay}>
-                            <p>Calculadora IOS</p>
+                            <p>Nutrition Website</p>
                         </div>   
                     </Link>
                 </div>
                 <div className={styles.imageContainer}>
                     <Link href={'/'}>
                         <Image     
-                            src="/rep2.jpg"
+                            src="/nasa.png"
                             width={350}
                             height={250}
                             className={styles.opa}
@@ -43,56 +43,14 @@ function MainTwo() {
                 <div className={styles.imageContainer}>
                     <Link href={'/'}>
                         <Image     
-                            src="/rep3.png"
+                            src="/feed.png"
                             width={350}
                             height={250}
                             className={styles.opa}
-                            alt="Calculadora"
+                            alt="Feed Social Media"
                         />
                         <div className={styles.overlay}>
-                            <p>Calculator IOS</p>
-                        </div>   
-                    </Link>
-                </div>
-                <div className={styles.imageContainer}>
-                    <Link href={'/'}>
-                        <Image     
-                            src="/rep3.png"
-                            width={350}
-                            height={250}
-                            className={styles.opa}
-                            alt="Calculadora"
-                        />
-                        <div className={styles.overlay}>
-                            <p>Calculator IOS</p>
-                        </div>   
-                    </Link>
-                </div>
-                <div className={styles.imageContainer}>
-                    <Link href={'/'}>
-                        <Image     
-                            src="/rep2.jpg"
-                            width={350}
-                            height={250}
-                            className={styles.opa}
-                            alt="Calculadora"
-                        />
-                        <div className={styles.overlay}>
-                            <p>Calculator IOS</p>
-                        </div>   
-                    </Link>
-                </div>
-                <div className={styles.imageContainer}>
-                    <Link href={'/'}>
-                        <Image     
-                            src="/rep1.png"
-                            width={350}
-                            height={250}
-                            className={styles.opa}
-                            alt="Calculadora"
-                        />
-                        <div className={styles.overlay}>
-                            <p>Calculator IOS</p>
+                            <p>Feed Social Media</p>
                         </div>   
                     </Link>
                 </div>

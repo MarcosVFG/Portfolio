@@ -56,6 +56,17 @@ function Footer() {
                             />
                         </Link>
                     </div>
+                    <div className={styles.helloTwo}>
+                        <Link href={"https://wa.me/5521992485067"} target="_blank" className={styles.linkTwo}>
+                            <Image     
+                                src="/wpp.png"
+                                width={30}
+                                height={30}
+                                className={styles.hehe}
+                                alt="WhatsApp Logo"
+                            />
+                        </Link>
+                    </div>
                 </div>
             </footer>
         </div>
